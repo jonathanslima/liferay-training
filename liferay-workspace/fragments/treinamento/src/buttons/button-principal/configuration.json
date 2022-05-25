@@ -6,7 +6,21 @@
           "dataType": "object",
           "label": "text-color",
           "name": "textColor",
-          "type": "colorPalette"
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "primary",
+						"rgbValue": "(32, 74, 145)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "background-color",
+          "name": "bgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "secondary",
+						"rgbValue": "(32, 74, 145)"
+					}
         }
       ]
     }

@@ -1,7 +1,4 @@
-import React from 'react';
-
-export default function (props) {
-  console.log("props", props);
-
-  return <h1>Hello world</h1>;
-}
+console.group('button-principal');
+console.log('fragmentElement', fragmentElement);
+console.log('configuration', configuration);
+console.groupEnd();
