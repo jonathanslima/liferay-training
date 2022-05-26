@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "texto-principal",
-  "type": "react"
+  "name": "texto-1",
+  "type": "component"
 }
