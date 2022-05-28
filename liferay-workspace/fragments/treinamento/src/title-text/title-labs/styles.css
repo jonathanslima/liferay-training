@@ -1,0 +1,28 @@
+.title-labs h1{
+  font-size:10rem;
+    font-weight:900;
+  }
+  
+  .title-labs span{
+    color: inherit;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+  }
+  .topicos{
+    margin-top: 20px;
+    text-align:left;
+    background:url(https://media.istockphoto.com/vectors/vector-grunge-textured-background-beautiful-abstract-decorative-red-vector-id1225740014?k=20&m=1225740014&s=612x612&w=0&h=HPhbN1L4GrzASzoewYMl_8avVBriyP2Q83v85eZ6W9M=);
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-weight: 600;
+    padding: 50px 20px;
+  }
+  
+  .item{
+  margin: 0px 10px;
+  }
