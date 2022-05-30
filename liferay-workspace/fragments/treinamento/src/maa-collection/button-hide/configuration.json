@@ -1,0 +1,15 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "hideButton",
+          "label": "Hide First Button",
+          "description": "hide-button",
+          "type": "checkbox",
+          "defaultValue": false
+      }
+      ]
+    }
+  ]
+}

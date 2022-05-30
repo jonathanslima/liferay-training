@@ -1,4 +1,4 @@
-console.group('card-carrosel');
+console.group('card-solucoes');
 console.log('fragmentElement', fragmentElement);
 console.log('configuration', configuration);
 console.groupEnd();

@@ -1,0 +1,9 @@
+<div class="button-hide">
+  [#assign hideBtn = 'd-' ]
+    [#if configuration.hideButton]
+      [#assign hideBtn = 'd-none']
+    [/#if]
+    <div class="${hideBtn}">
+      <button type="button" class="btn btn-primary">Text Button</button>
+    </div>
+</div>
