@@ -4,7 +4,15 @@
       Soluções
     </lfr-editable>
 </h1>
-<lfr-editable id="imagem-1" type="image">
-  <img src="..."> 
-</lfr-editable>
+<div class="carrossel-container d-flex flex-column  flex-xl-row">
+  [#list 1..configuration.qtdCards as cur_Card]
+  
+   <lfr-drop-zone>
+       ${cur_Card}
+       <lfr-editable id="imagem-${cur_Card}" type="image"> 
+          <img class="img-fluid" src="...">
+       </lfr-editable></lfr-drop-zone>
+   
+  [/#list]
+</div>
 </div>
