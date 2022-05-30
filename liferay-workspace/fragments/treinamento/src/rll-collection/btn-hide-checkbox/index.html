@@ -1,0 +1,9 @@
+<div class="new-teste-2">
+  [#assign hideBtn = 'd-' ]
+    [#if configuration.hideButton]
+      [#assign hideBtn = 'd-none']
+    [/#if]
+    <div class="${hideBtn}">
+      <button data-lfr-editable-type="text" data-lfr-editable-id="btn" type="button" class="btn btn-danger">Primary</button>
+    </div>
+</div>

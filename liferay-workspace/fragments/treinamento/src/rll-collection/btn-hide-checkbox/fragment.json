@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "Card",
+  "name": "Btn-Hide-Checkbox",
   "type": "component"
 }
