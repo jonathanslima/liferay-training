@@ -36,7 +36,14 @@
               ]
           },
           "defaultValue": "3"
-        }
+        },
+        {
+          "name": "hideButton",
+          "label": "Esconder Botão",
+          "description": "hide-body",
+          "type": "checkbox",
+          "defaultValue": false
+      }
       
       ]
     }

@@ -4,15 +4,27 @@
       Soluções
     </lfr-editable>
 </h1>
+[#assign hideBtn = 'd-' ]
+    [#if configuration.hideButton]
+        [#assign hideBtn = 'd-none']
+    [/#if]
+    <div class="${hideBtn}">
+      <button>
+        <lfr-editable id="button1" type="text">
+          Botão
+        </lfr-editable>
+       </button>
+    </div>
 <div class="carrossel-container d-flex flex-column  flex-xl-row">
   [#list 1..configuration.qtdCards as cur_Card]
   
    <lfr-drop-zone>
-       ${cur_Card}
+    ${cur_Card}
        <lfr-editable id="imagem-${cur_Card}" type="image"> 
           <img class="img-fluid" src="...">
        </lfr-editable></lfr-drop-zone>
    
   [/#list]
+
 </div>
 </div>
