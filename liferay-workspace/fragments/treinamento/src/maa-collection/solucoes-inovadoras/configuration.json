@@ -4,7 +4,27 @@
       "fields": [
         {
           "dataType": "object",
-          "label": "text-color",
+          "label": "Cor do título",
+          "name": "textTitleColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "primary",
+						"rgbValue": "(32, 74, 145)"
+					}
+        },
+				{
+					"dataType": "object",
+					"label": "Cor de background do título",
+					"name": "bgTitleColor",
+					"type": "colorPalette",
+					"defaultValue": {
+						"cssClass": "secondary",
+						"rgbValue": "(32, 74, 145)"
+					}
+				},
+				{
+          "dataType": "object",
+          "label": "Cor do texto",
           "name": "textColor",
           "type": "colorPalette",
           "defaultValue": {
@@ -14,7 +34,7 @@
         },
 				{
 					"dataType": "object",
-					"label": "background-color",
+					"label": "Cor de background do texto",
 					"name": "bgColor",
 					"type": "colorPalette",
 					"defaultValue": {
