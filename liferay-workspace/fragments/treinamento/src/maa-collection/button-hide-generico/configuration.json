@@ -8,6 +8,16 @@
           "description": "hide-button",
           "type": "checkbox",
           "defaultValue": false
+      },
+      {
+        "dataType": "object",
+        "label": "text-color",
+        "name": "textColor",
+        "type": "colorPalette",
+        "defaultValue": {
+          "cssClass": "primary",
+          "rgbValue": "(32, 74, 145)"
+        }
       }
       ]
     }

@@ -4,6 +4,12 @@
       [#assign hideBtn = 'd-none']
     [/#if]
     <div class="${hideBtn}">
-      <button type="button" class="btn btn-primary">Text Button</button>
+      <button  type="button" class="btn btn-dark">
+        <lfr-editable id="link" type="link"> 
+          <a class="text-${configuration.textColor.cssClass} fragment-${fragmentEntryLinkNamespace}-link"> 
+            Text Button
+          </a>
+        </lfr-editable>
+      </button>
     </div>
 </div>
