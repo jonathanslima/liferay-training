@@ -12,6 +12,16 @@
 						"rgbValue": "(32, 74, 145)"
 					}
         },
+				{
+					"dataType": "object",
+					"label": "background-color",
+					"name": "bgColor",
+					"type": "colorPalette",
+					"defaultValue": {
+						"cssClass": "secondary",
+						"rgbValue": "(32, 74, 145)"
+					}
+				},
         {
           "name": "qtdCards",
           "label": "Quantidade de cards",

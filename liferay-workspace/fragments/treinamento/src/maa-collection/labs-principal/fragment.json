@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "button-hide",
+  "name": "labs-principal",
   "type": "component"
 }

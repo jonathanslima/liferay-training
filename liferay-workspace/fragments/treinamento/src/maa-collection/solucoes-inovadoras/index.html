@@ -1,0 +1,38 @@
+<div class="solucoes-inovadoras">
+  <div class="titulo-secao-solucoes-inovadoras">  
+    <h1>
+      <lfr-editable id="titulo-secao-solucoes-inovadoras" type="text" 
+      class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
+        Soluções Inovadoras
+      </lfr-editable>
+    </h1>
+  </div>
+  <div class="titulo-subsecao-solucoes-inovadoras">  
+    <p class="font-weight-normal"> 
+      <lfr-editable id="titulo-subsecao-solucoes-inovadoras" type="text"
+      class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}"
+      >
+        Estamos aqui para solucionar todos os desafios do seu negócio.
+        Conheça nossos produtos!
+      </lfr-editable>
+    </p>
+  </div>
+  [#list 1..configuration.qtdCards?number as cur_Card]
+  <div class="card-solucoes-inovadoras" style="width: 18rem;">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">
+        <lfr-editable id="Title${cur_Card}" type="text"
+        class="text-${configuration.textColor.cssClass}"
+        >
+          MERIT COIN
+        </lfr-editable> 
+      </h5>
+      <p class="card-text">
+        Uma plataforma gamificada, simples e divertida.</p>
+      <a href="#" class="btn btn-link">Saiba mais</a>
+    </div>
+  </div>
+  [/#list]
+</div>
+
