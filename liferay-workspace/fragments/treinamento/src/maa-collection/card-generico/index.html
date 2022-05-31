@@ -1,15 +1,28 @@
-<div class="card-generico" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+<div class="card border-primary mb-3" style="width: 18rem;">
+  <lfr-editable id="image-square" type="image">
+    <img class="card-img-top" src="..." alt="Card image cap">
+	</lfr-editable>  
   <div class="card-body">
     <h5 class="card-title">
       <lfr-editable id="titulo-card" type="text"
-      class="text-${configuration.textColor.cssClass}"
+      class="text-${configuration.titleTextColor.cssClass}"
       >
-        Card Example
+        Card Title Example
       </lfr-editable> 
     </h5>
     <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+      <lfr-editable id="texto-card" type="text"
+      class="text-${configuration.textColor.cssClass}"
+      >
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+      </lfr-editable> 
+    </p>
+    <button  type="button" class="btn btn-light">
+        <lfr-editable id="link" type="link"> 
+          <a class="text-${configuration.textColor.cssClass} fragment-${fragmentEntryLinkNamespace}-link"> 
+            Text Button
+          </a>
+        </lfr-editable>
+      </button>
   </div>
 </div>

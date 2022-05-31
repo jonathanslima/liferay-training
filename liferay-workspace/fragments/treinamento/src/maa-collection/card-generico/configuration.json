@@ -5,6 +5,16 @@
         {
           "dataType": "object",
           "label": "Cor do título",
+          "name": "titleTextColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "primary",
+						"rgbValue": "(32, 74, 145)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "Cor do texto",
           "name": "textColor",
           "type": "colorPalette",
           "defaultValue": {
