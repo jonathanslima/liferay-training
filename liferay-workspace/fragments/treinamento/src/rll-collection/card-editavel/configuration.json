@@ -21,6 +21,22 @@
 						"cssClass": "light",
 						"rgbValue": "(255,255,255)"
 					}
+        },
+
+				   {
+          "name": "qtdCards",
+          "label": "Quantidade de cards",
+          "description": "number-of-features",
+          "type": "select",
+          "dataType": "int",
+          "typeOptions": {
+              "validValues": [
+                  {"value": "1"},
+                  {"value": "2"},
+                  {"value": "3"}
+              ]
+          },
+          "defaultValue": "1"
         }
       ]
     }

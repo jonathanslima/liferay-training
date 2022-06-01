@@ -5,3 +5,12 @@
     'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
 }
+
+.cards-main{
+box-shadow: 3px 0px 15px 2px #000000;
+	text-align: center;
+}
+.cards-main img{
+height: 200px;
+	
+}
