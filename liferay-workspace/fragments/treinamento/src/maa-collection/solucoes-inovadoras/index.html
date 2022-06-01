@@ -1,0 +1,36 @@
+<div class="solucoes-inovadoras">
+  <div class="titulo-secao-solucoes-inovadoras">  
+    <h1>
+      <lfr-editable id="titulo-secao-solucoes-inovadoras" type="text" 
+      class="text-${configuration.textTitleColor.cssClass} bg-${configuration.bgTitleColor.cssClass}">
+        Soluções Inovadoras
+      </lfr-editable>
+    </h1>
+  </div>
+  <div class="titulo-subsecao-solucoes-inovadoras">  
+    <p class="font-weight-normal"> 
+      <lfr-editable id="titulo-subsecao-solucoes-inovadoras" type="text"
+      class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}"
+      >
+        Estamos aqui para solucionar todos os desafios do seu negócio.
+        Conheça nossos produtos!
+      </lfr-editable>
+    </p>
+  </div>
+  <div class = "row">
+    [#list 1..configuration.qtdCards?number as cur_Card]
+      <div class = "col-sm-3">
+        <div class="card border-primary mb-3" style="width: 18rem;">
+          <lfr-editable id="image-square" type="image">
+            <img class="card-img-top" src="..." alt="Card image cap">
+	        </lfr-editable>
+	        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>  
+    [/#list]
+  </div>
+</div>
