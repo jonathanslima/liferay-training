@@ -1,37 +1,36 @@
-.container#info_inside{
-  padding-top: 5px;
-  background-color:#f9f9f9; 
-  width: 180px;
-  height: 100px;
-  border-radius: 3px;
-}
-
-.assistente-card-left{
-  width: 20%;
-  background-color:#CECEF4;
-  border-radius: 3px;
-  height: 430px;
-  padding: 15px;
-}
-
-.assistente-card-right{
+.step {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  
+  background: #CECEF4;
+  border: 2px solid #191970;
   color: #191970;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  width: 80%;
-  border-radius: 3px;
-  background-color:#f9f9f9;
-  height: 430px;
-  padding: 30px;
-  margin-left: 20px;
-  display: none;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
 }
 
-.assistente-top-left{
+.step.is-active{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  
+  background: #D5F3FE;
+  border: 2px solid #66D3FA;
+  color: #191970;
+  text-align: center;
+  font-size: 19px;
+}
+
+.left-top-element{
   width: 20%;
   border-radius: 3px;
 }
 
-.assistente-top-right{
+.right-top-element{
   color: #191970;
   width: 80%;
   border-radius: 3px;
@@ -41,33 +40,6 @@
   height: 60px;
   margin-left: 20px;
   margin-top: 50px;
-}
-
-.dot {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    padding: 8px;
-    
-    background: #CECEF4;
-    border: 2px solid #191970;
-    color: #191970;
-    text-align: center;
-    font-size: 19px;
-    cursor: pointer;
-}
-
-.dot.is-active{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    padding: 8px;
-    
-    background: #D5F3FE;
-    border: 2px solid #66D3FA;
-    color: #191970;
-    text-align: center;
-    font-size: 19px;
 }
 
 .box {
@@ -84,7 +56,7 @@
   position: relative;
 }
 
-.sb2:before {
+.balloon:before {
   content: "";
   width: 0px;
   height: 0px;
@@ -95,6 +67,39 @@
   border-bottom: 10px solid transparent;
   left: -19px;
   top: 6px;
+}
+
+
+.left-bottom-element{
+  width: 20%;
+  background-color:#CECEF4;
+  border-radius: 3px;
+  height: 430px;
+  padding: 15px;
+}
+
+.container#info_inside{
+  padding-top: 5px;
+  background-color:#f9f9f9; 
+  width: 180px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+.right-bottom-element{
+  color: #191970;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 80%;
+  border-radius: 3px;
+  background-color:#f9f9f9;
+  height: 430px;
+  padding: 30px;
+  margin-left: 20px;
+  display: none;
+}
+
+.right-bottom-element.is-active{
+  display: block;
 }
 
 .btn#anterior{
@@ -115,6 +120,4 @@
 }
 
 
-.assistente-card-right.is-active{
-  display: block;
-}
+

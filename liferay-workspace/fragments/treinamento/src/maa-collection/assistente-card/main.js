@@ -3,8 +3,8 @@ console.log('fragmentElement', fragmentElement);
 console.log('configuration', configuration);
 console.groupEnd();
 
-var tabs = document.querySelectorAll('.dot'), 
-contents = document.querySelectorAll('.assistente-card-right');
+var tabs = document.querySelectorAll('.step'), 
+contents = document.querySelectorAll('.right-bottom-element');
 
 tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => {
