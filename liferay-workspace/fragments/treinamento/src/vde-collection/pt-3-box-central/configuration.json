@@ -1,0 +1,125 @@
+{
+	"fieldSets": [
+	  {
+		"fields": [
+		  {
+			"dataType": "object",
+			"label": "text-color",
+			"name": "textColor",
+			"type": "colorPalette",
+			"defaultValue": {
+						  "cssClass": "primary",
+						  "rgbValue": "(14,54,138)"
+					  }
+		  },
+		  {
+			"dataType": "object",
+			"label": "radio-text-color",
+			"name": "radioTextColor",
+			"type": "colorPalette",
+			"defaultValue": {
+						  "cssClass": "secondary",
+						  "rgbValue": "(82,85,88)"
+					  }
+		  },
+		  {
+			"dataType": "object",
+			"label": "background-color",
+			"name": "bgColor",
+			"type": "colorPalette",
+			"defaultValue": {
+						  "cssClass": "white",
+						  "rgbValue": "(255,255,255)"
+					  }
+		  },
+		  {
+			"dataType": "object",
+			"label": "btn-background-color",
+			"name": "btnBgColor",
+			"type": "colorPalette",
+			"defaultValue": {
+						  "cssClass": "white",
+						  "rgbValue": "(14,54,138)"
+					  }
+		  },
+		  {
+					  "dataType": "string",
+					  "defaultValue": "outline-primary",
+					  "label": "type",
+					  "name": "buttonType",
+					  "type": "select",
+					  "typeOptions": {
+						  "validValues": [
+							  {
+								  "value": "primary"
+							  },
+							  {
+								  "value": "secondary"
+							  },
+							  {
+								  "value": "link"
+							  },
+							  {
+								  "value": "outline-primary"
+							  },
+							  {
+								  "value": "outline-secondary"
+							  }
+						  ]
+					  }
+				  },
+					{
+					  "dataType": "string",
+					  "defaultValue": "primary",
+					  "label": "type-second-button",
+					  "name": "secondButtonType",
+					  "type": "select",
+					  "typeOptions": {
+						  "validValues": [
+							  {
+								  "value": "primary"
+							  },
+							  {
+								  "value": "secondary"
+							  },
+							  {
+								  "value": "link"
+							  },
+							  {
+								  "value": "outline-primary"
+							  },
+							  {
+								  "value": "outline-secondary"
+							  }
+						  ]
+					  }
+				  },
+  
+  
+		  {
+					  "dataType": "string",
+					  "defaultValue": "nm",
+					  "label": "size",
+					  "name": "buttonSize",
+					  "type": "select",
+					  "typeOptions": {
+						  "validValues": [
+							  {
+								  "label": "small",
+								  "value": "sm"
+							  },
+							  {
+								  "label": "normal",
+								  "value": "nm"
+							  },
+							  {
+								  "label": "large",
+								  "value": "lg"
+							  }
+						  ]
+					  }
+				  }
+		]
+	  }
+	]
+  }

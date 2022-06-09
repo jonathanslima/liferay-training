@@ -1,0 +1,109 @@
+<div class="box-central bg-${configuration.bgColor.cssClass}"> 
+	[#assign varBtn = 1 ] 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+	<script>
+		function botaoClk( ){
+			  console.log("hello function");
+			  //$('#varBtn').val(2);
+			  //console.log($('#varBtn').val);
+		  }
+	</script>	 
+  
+	[#if varBtn == 1]
+	<h3 class="title">
+	  <lfr-editable id="box-central-titulo-pg1" type="text" class="text-${configuration.textColor.cssClass}">
+	   Tipo de ligação
+	  </lfr-editable>
+	</h3>
+  
+	  <div>
+		 <input type="radio" id="1" name="opcao" value="1">
+		 <label for="1"> 1Nova ligação de água em imóvel onde ainda não tem instalação.</label></br>
+		 
+		 <input type="radio" id="2" name="opcao" value="2">
+		 <label for="2"> 2Nova ligação para grandes empreendimentos.</label><br/>
+		 
+		 <input type="radio" id="3" name="opcao" value="3">
+		 <label for="3"> 3Reativar ligação já existente.</label><br/>
+		 
+		 <input type="radio" id="4" name="opcao" value="4">
+		 <label for="4"> 4Separar ligação de água.</label><br/>
+		 
+		 <input type="radio" id="5" name="opcao" value="5">
+		 <label for="5"> 5Mudar o local da ligação de água já existente.</label>
+		
+	  </div>
+	  [/#if]
+  
+	  [#if varBtn == 2]
+	  <h3 class="title">
+		  <lfr-editable id="box-central-titulo-pg2" type="text" class="text-${configuration.textColor.cssClass}">
+		   Tela 2
+		  </lfr-editable>
+		</h3>
+  
+	  <div>
+		  <input type="radio" id="1" name="opcao" value="1">
+		  <label for="1">Opção 1, tela 2</label></br>
+		  
+		  <input type="radio" id="2" name="opcao" value="2">
+		  <label for="2">Opção 2, tela 2</label><br/>
+		  
+		  <input type="radio" id="3" name="opcao" value="3">
+		  <label for="3">Opção 3, tela 2</label><br/>
+		  
+		  <input type="radio" id="4" name="opcao" value="4">
+		  <label for="4">Opção 4, tela 2</label><br/>
+		  
+		  <input type="radio" id="5" name="opcao" value="5">
+		  <label for="5">Opção 5, tela 2</label>
+		 
+	   </div>
+  
+	  [/#if]
+  
+	  [#if varBtn == 3]
+	  <h3 class="title">
+		  <lfr-editable id="box-central-titulo-pg3" type="text" class="text-${configuration.textColor.cssClass}">
+		   Tela 3
+		  </lfr-editable>
+		</h3>
+  
+	  <div>
+		  <input type="radio" id="1" name="opcao" value="1">
+		  <label for="1">Opção 1, tela 3</label></br>
+		  
+		  <input type="radio" id="2" name="opcao" value="2">
+		  <label for="2">Opção 2, tela 3</label><br/>
+		  
+		  <input type="radio" id="3" name="opcao" value="3">
+		  <label for="3">Opção 3, tela 3</label><br/>
+		  
+		  <input type="radio" id="4" name="opcao" value="4">
+		  <label for="4">Opção 4, tela 3</label><br/>
+		  
+		  <input type="radio" id="5" name="opcao" value="5">
+		  <label for="5">Opção 5, tela 3</label>
+		 
+	   </div>
+  
+	  [/#if]
+	  <div class="buttons btnBg-${configuration.btnBgColor.cssClass}">
+		
+		<!-- <button onclick=botaoClk()>Anterior</button>
+		<button>Próximo</button> -->
+		
+		<lfr-editable id="anterior" type="link">
+		  <a onclick=botaoClk() class="btn btn-${configuration.buttonSize} btn-${configuration.buttonType}" href="" id="prev-btn">
+			Anterior
+		  </a>
+		</lfr-editable>
+		<lfr-editable id="proximo" type="link">
+		  <a class="btn btn-${configuration.buttonSize} btn-${configuration.secondButtonType}" href="" id="next-btn">
+			Próximo
+		  </a>
+	  </lfr-editable>
+	  </div>
+  </div>
+  
+  <!--AQUI-->
