@@ -1,0 +1,38 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "dataType": "object",
+          "label": "text-color",
+          "name": "textColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "black",
+						"rgbValue": "rgb(230,234,243)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "background-color",
+          "name": "bgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "secondary",
+						"rgbValue": "rgb(230,234,243)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "intern-background-color",
+          "name": "internBgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "white",
+						"rgbValue": "rgb(255,255,255)"
+					}
+        }
+      ]
+    }
+  ]
+}

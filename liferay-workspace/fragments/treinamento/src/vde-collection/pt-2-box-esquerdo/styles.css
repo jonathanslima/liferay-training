@@ -1,0 +1,18 @@
+.box-esquerdo{
+    margin-top: 20px;
+    width:300px;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+   
+.box-esquerdo-interno{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width:250px;
+     height:auto;
+     border-radius: 5px;
+     align-self: center;
+}
