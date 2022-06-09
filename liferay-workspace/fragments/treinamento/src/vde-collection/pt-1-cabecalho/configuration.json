@@ -1,0 +1,38 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "textColor",
+          "label": "Text color",
+          "type": "colorPalette",
+          "dataType": "object",
+          "defaultValue": {
+              "cssClass": "primary",
+              "rgbValue": "rgb(255,0,0)"
+          }
+      },
+        {
+          "dataType": "object",
+          "label": "background-color",
+          "name": "bgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "white",
+						"rgbValue": "rgb(255, 240, 193)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "img-background-color",
+          "name": "imgBgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "white",
+						"rgbValue": "rgb(255, 255, 255)"
+					}
+        }
+      ]
+    }
+  ]
+}
