@@ -32,15 +32,22 @@
 
 .right-top-element{
   color: #191970;
+  font-weight: bold;
   width: 80%;
   border-radius: 3px;
   background-color:#f4f473;
   padding-left: 30px;
-  padding-top: 50px ;
+  padding-top: 20px ;
   height: 60px;
   margin-left: 20px;
   margin-top: 50px;
+  display: none;
 }
+
+.right-top-element.is-active{
+  display: block;
+}
+
 
 .box {
   width: 80%;
@@ -118,6 +125,5 @@
   bottom: 15px;
   right: 15px;
 }
-
 
 
