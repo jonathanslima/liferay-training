@@ -1,4 +1,4 @@
-.step {
+.step-top {
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.step.is-active{
+.step-top.is-active{
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -24,6 +24,28 @@
   text-align: center;
   font-size: 19px;
 }
+
+.step-bottom-parent{
+  position: absolute;
+  bottom: 380px;
+  right: 455px;
+}
+
+.step-bottom-child{
+  width: 20px;
+  height: 5px;
+  background: #191970;
+  display: inline-block;
+}
+
+.step-bottom-child.is-active{
+  width: 20px;
+  height: 5px;
+  background: #D5F3FE;
+  border: 1px solid #191970;
+  display: inline-block;
+}
+
 
 .left-top-element{
   width: 20%;
@@ -100,7 +122,7 @@
   border-radius: 3px;
   background-color:#f9f9f9;
   height: 430px;
-  padding: 30px;
+  padding: 60px;
   margin-left: 20px;
   display: none;
 }
@@ -125,5 +147,4 @@
   bottom: 15px;
   right: 15px;
 }
-
 
