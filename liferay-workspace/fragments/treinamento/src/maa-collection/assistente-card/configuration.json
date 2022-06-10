@@ -2,6 +2,36 @@
   "fieldSets": [
     {
       "fields": [
+        {
+          "dataType": "object",
+          "label": "Text color right card",
+          "name": "textColor",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "",
+						"rgbValue": "(25, 25, 112)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "Background color right card",
+          "name": "bgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+                  "cssClass": "",
+                  "rgbValue": "(249,249,249)"
+          }
+        },
+        {
+          "dataType": "object",
+          "label": "Background color button",
+          "name": "btnBgColor",
+          "type": "colorPalette",
+          "defaultValue": {
+                  "cssClass": "",
+                  "rgbValue": "(25, 25, 112)"
+          }
+        }
       ]
     }
   ]
