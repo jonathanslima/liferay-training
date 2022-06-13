@@ -7,16 +7,14 @@
   <div class="col"><div class="step-top">5</div></div>  
 </div><br><br>
 <!-- Final Step Element -->
-
-<!-- Flex Top Father Element -->
-<section class="d-flex flex-top-father-element">
+<!-- Flex Top Parent Element -->
+<section class="d-flex flex-top-parent-element">
   <!-- Left Top Element -->
   <lfr-editable class="left-top-element" id="image-square" type="image">
     <img id="img-top"src="..." alt="VIVI">
   </lfr-editable>
   <!-- Final Left Top Element -->  
   <!-- Right Top Element -->
-
   <div class="right-top-element is-active">Qual orientação você deseja? </div>
   <div class="right-top-element">Qual tipo de ligação você deseja?</div>
   <div class="right-top-element">Qual a finalidade da sua ligação?</div>
@@ -24,10 +22,9 @@
   <div class="right-top-element">Detalhamento 5</div>
   <!-- Final Right Top Element -->
 </section>
-<!-- Final Flex Top Father Element -->
-
-<!-- Flex Bottom Father Element -->
-<section class="d-flex flex-bottom-father-element">
+<!-- Final Flex Top Parent Element -->
+<!-- Flex Bottom Parent Element -->
+<section class="d-flex flex-bottom-parent-element">
   <!-- Left Bottom Element -->
   <div class="left-bottom-element">
     <p style ="font-size: 10px">
@@ -51,7 +48,7 @@
   </div>
   <!-- Final Left Bottom Element -->
   <!-- Right Bottom Element -->
-  <div class="right-bottom-element is-active bg-${configuration.bgColor.cssClass}">
+  <div class="right-bottom-element-parent is-active bg-${configuration.bgColor.cssClass}">
     <h4>
       <lfr-editable id="titulo-card-1" type="text"
       class="text-${configuration.textColor.cssClass}">
@@ -104,7 +101,7 @@
       <div class="step-bottom-child"></div>
     </div>
   </div>
-  <div class="right-bottom-element bg-${configuration.bgColor.cssClass}">
+  <div class="right-bottom-element-parent bg-${configuration.bgColor.cssClass}">
     <h4>
       <lfr-editable id="titulo-card-2" type="text"
       class="text-${configuration.textColor.cssClass}">
@@ -124,7 +121,7 @@
       <div class="step-bottom-child"></div>
     </div>
   </div>
-  <div class="right-bottom-element bg-${configuration.bgColor.cssClass}">
+  <div class="right-bottom-element-parent bg-${configuration.bgColor.cssClass}">
     <h4>
       <lfr-editable id="titulo-card-3" type="text"
       class="text-${configuration.textColor.cssClass}">
@@ -144,7 +141,7 @@
       <div class="step-bottom-child"></div>
     </div>
   </div>
-   <div class="right-bottom-element bg-${configuration.bgColor.cssClass}">
+   <div class="right-bottom-element-parent bg-${configuration.bgColor.cssClass}">
     <h4>
       <lfr-editable id="titulo-card-4" type="text"
       class="text-${configuration.textColor.cssClass}">
@@ -164,26 +161,58 @@
       <div class="step-bottom-child"></div>
     </div>
   </div>
-  <div class="right-bottom-element bg-${configuration.bgColor.cssClass}">
-    <h4>
-      <lfr-editable id="titulo-card-5" type="text"
-      class="text-${configuration.textColor.cssClass}">
-        Detalhamento 5
-      </lfr-editable>
-    </h4><br>
-    <p class="text-card"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-    <button type="button" id="anterior" class="btn btn-outline-primary">
-        ANTERIOR
-    </button>
-    <button type="button" id="proximo" class="btn btn-primary bg-${configuration.btnBgColor.cssClass}">
-        PRÓXIMO
-    </button>
+  <div class="right-bottom-element-parent bg-${configuration.bgColor.cssClass}">
     <div class=step-bottom-parent>
-      <div class="step-bottom-child is-active"></div>
-      <div class="step-bottom-child"></div>
-      <div class="step-bottom-child"></div>
+      <div class="step-bottom-child five is-active"></div>
+      <div class="step-bottom-child five"></div>
+      <div class="step-bottom-child five"></div>
+    </div>
+    <div class="right-bottom-element-child five is-active">
+      <h4>
+        <lfr-editable id="titulo-card-5.1" type="text"
+        class="text-${configuration.textColor.cssClass}">
+          Detalhamento 5.1
+        </lfr-editable>
+      </h4><br>
+      <p class="text-card"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+      <button type="button" id="anterior" class="btn btn-outline-primary">
+          ANTERIOR
+      </button>
+      <button type="button" id="proximo" class="btn btn-primary bg-${configuration.btnBgColor.cssClass}">
+          PRÓXIMO
+      </button>
+    </div>
+    <div class="right-bottom-element-child five">
+      <h4>
+        <lfr-editable id="titulo-card-5.2" type="text"
+        class="text-${configuration.textColor.cssClass}">
+          Detalhamento 5.2
+        </lfr-editable>
+      </h4><br>
+      <p class="text-card"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+      <button type="button" id="anterior" class="btn btn-outline-primary">
+          ANTERIOR
+      </button>
+      <button type="button" id="proximo" class="btn btn-primary bg-${configuration.btnBgColor.cssClass}">
+          PRÓXIMO
+      </button>
+    </div>
+    <div class="right-bottom-element-child five">
+      <h4>
+        <lfr-editable id="titulo-card-5.3" type="text"
+        class="text-${configuration.textColor.cssClass}">
+          Detalhamento 5.3
+        </lfr-editable>
+      </h4><br>
+      <p class="text-card"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+      <button type="button" id="anterior" class="btn btn-outline-primary">
+          ANTERIOR
+      </button>
+      <button type="button" id="proximo" class="btn btn-primary bg-${configuration.btnBgColor.cssClass}">
+          PRÓXIMO
+      </button>
     </div>
   </div>
   <!-- Final Right Bottom Element -->
 </section>
-<!-- Final Flex Bottom Father Element -->
+<!-- Final Flex Bottom Parent Element -->
