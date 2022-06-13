@@ -40,3 +40,50 @@ stepsBottomFive.forEach((step,index) => {
     });
 });
 
+var stepsBottomFour = document.querySelectorAll('.step-bottom-child.four'),
+contentsFour = document.querySelectorAll('.right-bottom-element-child.four');
+
+stepsBottomFour.forEach((step,index) => {
+    step.addEventListener('click', () => {
+        contentsFour.forEach((contentFour) => {
+            contentFour.classList.remove('is-active');
+        });
+        stepsBottomFour.forEach((stepFour) => {
+            stepFour.classList.remove('is-active');
+        });
+        contentsFour[index].classList.add('is-active');
+        stepsBottomFour[index].classList.add('is-active');
+    });
+});
+
+var stepsBottomThree = document.querySelectorAll('.step-bottom-child.three'),
+contentsThree = document.querySelectorAll('.right-bottom-element-child.three');
+
+stepsBottomThree.forEach((step,index) => {
+    step.addEventListener('click', () => {
+        contentsThree.forEach((contentThree) => {
+            contentThree.classList.remove('is-active');
+        });
+        stepsBottomThree.forEach((stepThree) => {
+            stepThree.classList.remove('is-active');
+        });
+        contentsThree[index].classList.add('is-active');
+        stepsBottomThree[index].classList.add('is-active');
+    });
+});
+
+var stepsBottomOne = document.querySelectorAll('.step-bottom-child.one'),
+contentsOne = document.querySelectorAll('.right-bottom-element-child.one');
+
+stepsBottomOne.forEach((step,index) => {
+    step.addEventListener('click', () => {
+        contentsOne.forEach((contentOne) => {
+            contentOne.classList.remove('is-active');
+        });
+        stepsBottomOne.forEach((stepOne) => {
+            stepOne.classList.remove('is-active');
+        });
+        contentsOne[index].classList.add('is-active');
+        stepsBottomOne[index].classList.add('is-active');
+    });
+});

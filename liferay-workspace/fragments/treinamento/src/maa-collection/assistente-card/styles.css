@@ -105,7 +105,31 @@
   display: none;
 }
 
-.right-bottom-element-child.is-active{
+.right-bottom-element-child.five.is-active{
+  display: block;
+}
+
+.right-bottom-element-child.four{
+  display: none;
+}
+
+.right-bottom-element-child.four.is-active{
+  display: block;
+}
+
+.right-bottom-element-child.three{
+  display: none;
+}
+
+.right-bottom-element-child.three.is-active{
+  display: block;
+}
+
+.right-bottom-element-child.one{
+  display: none;
+}
+
+.right-bottom-element-child.one.is-active{
   display: block;
 }
 
