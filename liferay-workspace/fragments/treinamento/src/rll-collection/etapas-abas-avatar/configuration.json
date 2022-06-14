@@ -1,0 +1,48 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+				{
+          "dataType": "object",
+          "label": "Título Personagem",
+          "name": "titlePersonagem",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "primary",
+						"rgbValue": "(0,0,0)"
+					}
+        },
+				{
+          "dataType": "object",
+          "label": "Título Conteúdo",
+          "name": "titleContent",
+          "type": "colorPalette",
+          "defaultValue": {
+						"cssClass": "primary",
+						"rgbValue": "(0,0,0)"
+					}
+        },
+        {
+          "dataType": "object",
+          "label": "background-color-text-personagem",
+          "name": "bgColor",
+          "type": "colorPalette",
+					"defaultValue": {
+						"cssClass": "sucess",
+						"rgbValue": "(228,228,99)"
+					}
+				},
+				{
+          "dataType": "object",
+          "label": "background-color-sidebar",
+          "name": "bgColorLeftSection",
+          "type": "colorPalette",
+					"defaultValue": {
+						"cssClass": "sucess",
+						"rgbValue": "(228,228,99)"
+					}
+				}
+      ]
+    }
+  ]
+}
