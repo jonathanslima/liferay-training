@@ -1,130 +1,139 @@
-.tab-all {}
+.btns-circle {
+    display: flex;
+    justify-content: space-between;
+}
 
-        .btns-circle {
-            display: flex;
-            justify-content: space-between;
-        }
+.btns-circle button {
+    border: solid 1px rgb(217, 216, 216);
+    background: rgb(195, 195, 195);
+    color: rgb(29, 73, 185);
+    font-weight: 700;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    opacity: 0.3;
+}
 
-        .btns-circle button {
-            border: solid 1px rgb(217, 216, 216);
-            background: rgb(195, 195, 195);
-            color: rgb(29, 73, 185);
-            font-weight: 700;
-            border-radius: 100%;
-            width: 35px;
-            height: 35px;
-            opacity: 0.3;
-        }
+.btns-circle button:hover {
+    opacity: 0.8 !important;
+    transition: all 1s;
+}
 
-        .btns-circle button:hover {
-            opacity: 0.8 !important;
-            transition: all 1s;
-        }
+.btn-item {
+    position: relative;
+}
 
-        .btn-item {
-            position: relative;
-        }
+.btn-item::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 15px;
+    left: 60px;
+    width: 9vw;
+    height: 5px;
+    background-color: rgb(184, 179, 179) !important;
+    z-index: 000;
+}
 
-        .btn-item::before {
-            content: "";
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            bottom: 15px;
-            left: 60px;
-            width: 9vw;
-            height: 5px;
-            background-color: rgb(184, 179, 179) !important;
-            z-index: 000;
-        }
+.btn-item:nth-child(6)::before{
+    content: "";
+    display: none;
+}
+.btn-item:nth-child(1)::before{
+    content: "";
+    background-color: rgb(209, 208, 208)!important;
+}
 
-        .btn-item:nth-child(6)::before{
-            content: "";
-            display: none;
-        }
-        .btn-item:nth-child(1)::before{
-            content: "";
-            background-color: rgb(209, 208, 208)!important;
-        }
-
-        .ativado {
-            font-weight: 900;
-            opacity: 0.9 !important;
-            color: rgba(48, 123, 235, 0.16);
-            background: rgba(48, 123, 235, 0.16) !important;
-            border: solid 1px rgb(6, 87, 152) !important;
-        }
+.ativado {
+    font-weight: 900;
+    opacity: 0.9 !important;
+    color: rgba(48, 123, 235, 0.16);
+    background: rgba(48, 123, 235, 0.16) !important;
+    border: solid 1px rgb(6, 87, 152) !important;
+}
 
 .ativado-content{
 display: block;
 }
 
-        .desativado {display: none;}
+.desativado {display: none;}
 
-        .personagem div:nth-child(1){
-            width:35%;
-        }
+.personagem div:nth-child(1){
+    width:35%;
+}
 
-        .personagem div:nth-child(2) {
-            width: 100% !important;
-        }
+.personagem div:nth-child(2) {
+    width: 100% !important;
+}
 
-        .personagem div:nth-child(2) p {
-            padding: 10px 20px 0px 30px;
-        }
+.personagem div:nth-child(2) p {
+    padding: 10px 20px 0px 30px;
+}
 
-        .txt-personagem {
-            background-color: rgb(228, 228, 99);
-            color: rgb(61, 106, 239);
-            font-weight: 700;
-            padding: 10px;
-            border-radius: 10px;
-            font-size: 16px;
-        }
+.txt-personagem {
+    background-color: rgb(228, 228, 99);
+    color: rgb(61, 106, 239);
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
 
 .content-info-botom-personagem{
-	display:none;
+display:none;
 }
 
 .content-info-botom-personagem.is-active{
-	display:block;
+display:block;
 }
 
+.item-tirth-stroke{
+    background: rgb(112, 157, 248);
+    border: none;
+    width: 25px;
+    height: 5px;
+    margin: 0px 05px;
+}
+.btn-ativo{
+    background-color: rgb(16, 42, 114);
+    width: 35px !important;
+}
 
-        .left-info-botom-personagem {
-            width: 25%;
-            background-color: rgb(233, 233, 233);
-            border-radius: 10px;
-            padding: 20px;
-        }
+.left-info-botom-personagem {
+    width: 25%;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 20px;
+}
 
-        .right-info-botom-personagem {
-            width: 75%;
-            padding: 20px 40px;
-            margin-left: 20px;
-            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.10);
-            position: relative;
+.right-info-botom-personagem {
+    width: 75%;
+    padding: 20px 40px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.10);
+    position: relative;
 
-        }
+}
 
-        .right-info-botom-personagem .button {
-            position: absolute;
-            bottom: 50px;
-            right: 50px;
-            border: none;
-            border: solid 1px rgb(12, 49, 152);
-            color: rgb(12, 49, 152);
-            border-radius: 5px;
-            background-color: white;
-            padding: 5px 15px;
-        }
+.right-info-botom-personagem .buttons-bottom {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    border: none;
+    border: solid 1px rgb(12, 49, 152);
+    color: rgb(12, 49, 152);
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 15px;
+}
 
-        .button-first {
-            margin-right: 110px;
-        }
+.button-first {
+    margin-right: 110px;
+}
 
-        .button-second {
-            color: white !important;
-            background-color: rgb(12, 49, 152) !important;
-        }
+.button-second {
+    color: white !important;
+    background-color: rgb(12, 49, 152) !important;
+}
