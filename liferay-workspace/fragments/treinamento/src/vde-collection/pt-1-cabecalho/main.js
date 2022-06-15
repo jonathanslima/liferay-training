@@ -1,7 +1,15 @@
-import React from 'react';
+var tabs = document.querySelectorAll('.dot'), 
+titles = document.querySelectorAll('.main-title');
 
-export default function (props) {
-  console.log("props", props);
-
-  return <h1>Hello world</h1>;
-}
+tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+        tabs.forEach((tab)=>{
+            tab.classList.remove('is-active');
+        });
+        titles.forEach((title)=>{
+            title.classList.remove('is-active');
+        });
+        tabs[index].classList.add('is-active');
+        titles[index].classList.add('is-active');
+    });
+});

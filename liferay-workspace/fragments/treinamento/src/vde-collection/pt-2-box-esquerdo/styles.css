@@ -1,17 +1,19 @@
 .box-esquerdo{
     margin-top: 20px;
-    width:300px;
+    width: 23%;
     height:auto;
-    display: flex;
+    display : flex;
+    flex-direction : row;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
+    text-align:justify;
 }
    
 .box-esquerdo-interno{
      margin-top: 20px;
      margin-bottom: 20px;
-     width:250px;
+     width:85%;
      height:auto;
      border-radius: 5px;
      align-self: center;

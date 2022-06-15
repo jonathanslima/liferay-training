@@ -1,14 +1,44 @@
-<div class"container">
+<div class="row">
+  <div class="col"><div class="dot is-active">1</div></div>
+  
+  <div class="col"><div class="dot">2</div></div>
+  <div class="col"><div class="dot">3</div></div>
+  <div class="col"><div class="dot">4</div></div>
+  <div class="col"><div class="dot">5</div></div>
+</div>
+<br/>
+
+<div class="container">
   <div class="box">
     <div class="box-row">
       <lfr-editable id="woman-image" type="image">
         <img class="box-cell box1 imgBg-${configuration.imgBgColor.rgbValue}" src="https://via.placeholder.com/200x200" alt="woman">
       </lfr-editable>  
     </div>
-    <div box-cell box2>
-      <h1>
-        <lfr-editable id="cabecalho" type="text" class=" text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
+    <div class="box-cell box2">
+      <h1 class="main-title is-active">
+        <lfr-editable id="cabecalho1" type="text" class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
           Qual tipo de ligação você deseja?
+        </lfr-editable>
+      </h1>
+      <h1 class="main-title">
+        <lfr-editable id="cabecalho2" type="text" class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
+          Título 2?
+        </lfr-editable>
+      </h1>
+      <h1 class="main-title">
+        <lfr-editable id="cabecalho3" type="text" class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
+          Título 3?
+        </lfr-editable>
+      </h1>
+      <h1 class="main-title">
+        <lfr-editable id="cabecalho4" type="text" class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
+          Título 4?
+        </lfr-editable>
+      </h1>
+      <h1 class="main-title">
+        <lfr-editable id="cabecalho5" type="text" class="text-${configuration.textColor.cssClass} bg-${configuration.bgColor.cssClass}">
+          Título 5?
         </lfr-editable>
       </h1>
     </div>

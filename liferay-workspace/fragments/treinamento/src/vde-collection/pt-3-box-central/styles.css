@@ -1,23 +1,46 @@
 .box-central{
-    margin-top: -400px;
-    left: 300px;
-    width:600px;
-    height:auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 5px;
-    position: absolute;
+  margin-top: -400px;
+  left: 400px;
+  width:600px;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
 }
 .title{
-    margin-top: 20px;
-    width:600px;
-    height:auto;
-    display: flex;
-    justify-content: center;
+  margin-top: 20px;
+  width:600px;
+  height:auto;
+  display: flex;
+  justify-content: center;
 }
 .buttons{
-    bottom:0;
-    position: absolute;
-    right: 0;
+  bottom: -100px;
+  position: relative;
+  right: -300px;
+  display : flex;
+  flex-direction : row;
+}
+.traco{
+background-color:#c6cfe3;
+height: 7px;
+width: 50px;
+margin-right: 3px;
+}
+.traco.active{
+background-color: #4e6ba9;
+height: 7px;
+width: 50px;
+margin-right: 3px;
+}
+
+.main-box{
+  display:none;
+}
+
+.main-box.is-active{
+  display: block;
 }
