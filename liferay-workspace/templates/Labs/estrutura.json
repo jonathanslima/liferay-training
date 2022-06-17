@@ -1,0 +1,125 @@
+{
+    "availableLanguageIds": [
+        "pt_BR"
+    ],
+    "defaultLanguageId": "pt_BR",
+    "fields": [
+        {
+            "label": {
+                "pt_BR": "Título"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "titulo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "pt_BR": "Separador"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Separadoreqn4",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "pt_BR": "Subtítulo"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "subtitulo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "pt_BR": "Separador"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Separador795l",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "pt_BR": "Itens"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "items",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": false,
+            "type": "text"
+        }
+    ]
+}
