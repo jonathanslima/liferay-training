@@ -1,0 +1,78 @@
+<h1 class="titulo-labs">${titulo_labs.getData()}</h1>
+<div class="col col-sm-7 col-md-6">
+    <p class="subtitulo-labs">${subtitulo_labs.getData()}</p>
+</div>
+<div class="container">
+    <div class="row card-labs">
+        <#if titulo_tecnologia.getSiblings()?has_content>
+	    <#list titulo_tecnologia.getSiblings() as cur_titulo_tecnologia>
+		    <p class="item-labs-text">${cur_titulo_tecnologia.getData()}</p>
+	    </#list>
+        </#if>
+    </div>
+</div>
+<a href="#" class="botao-labs">${botao_labs.getData()}</a>
+
+
+<style type="text/css">
+    
+.titulo-labs{
+    font-size: 18.75rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.875rem;
+    color: #D03E35 !important;
+    position: relative;
+    display: inline-block;
+    left: -0.9375rem;
+    height: 18.75rem;
+    z-index: 102;
+}
+.subtitulo-labs{
+    text-align: left;
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    color: #4E4E4E;
+    line-height: 2.9375rem;
+    margin-left: 2.1875rem;
+    margin-bottom: 3.125rem;
+    z-index: 102;
+}
+
+.container {
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.card-labs {
+    background-color: #D03E35 !important;
+    height: 15rem;
+}
+
+.item-labs-text{
+    color: white;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    margin-left: 0.625rem;
+    margin-top: 0;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    
+}
+
+.botao-labs{
+    background-color: white;
+    color: #D03E35 !important;
+}
+
+</style>

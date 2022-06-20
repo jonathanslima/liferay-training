@@ -1,0 +1,100 @@
+{
+    "availableLanguageIds": [
+        "pt_BR"
+    ],
+    "defaultLanguageId": "pt_BR",
+    "fields": [
+        {
+            "label": {
+                "pt_BR": "titulo_labs"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "titulo_labs",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "pt_BR": "subtitulo_labs"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "subtitulo_labs",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "pt_BR": "titulo_tecnologia"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "titulo_tecnologia",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "pt_BR": "botao_labs"
+            },
+            "predefinedValue": {
+                "pt_BR": ""
+            },
+            "style": {
+                "pt_BR": ""
+            },
+            "tip": {
+                "pt_BR": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "botao_labs",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        }
+    ]
+}
